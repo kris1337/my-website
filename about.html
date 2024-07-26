@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - CryptoCoins</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images/backk.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+            transform: translateY(-2px);
+        }
+
+        .about-section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about-section h2 {
+            font-size: 36px;
+            color: #f39c12;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .team-member {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 20px;
+            color: #fff;
+            display: inline-block;
+            width: 280px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            margin: 10px 0;
+            font-size: 24px;
+            color: #f39c12;
+        }
+
+        .team-member p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .team-member .btn {
+            background: #f39c12;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .team-member .btn:hover {
+            background: #e67e22;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 15px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CryptoCoins</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="coins.html">Coins</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to CryptoCoins! We are passionate about cryptocurrency and aim to provide you with the latest and most relevant information on the top coins in the market. Our team is dedicated to ensuring that you have the best experience when exploring and investing in cryptocurrencies.</p>
+
+        <div class="team-member">
+            <img src="images/ceo.png" alt="Amagirea">
+            <h3>Amagirea</h3>
+            <p>CEO & Founder</p>
+            <p>Anormaluu is the visionary behind CryptoCoins. With over a decade of experience in the financial sector and a deep passion for technology, John leads our team with innovation and dedication.</p>
+            <a href="https://instagram.com/amagirea" target="_blank" class="btn">Follow on Instagram</a>
+        </div>
+
+        <div class="team-member">
+            <img src="images/team1.png" alt="Jane Smith">
+            <h3>Jane Smith</h3>
+            <p>Lead Developer</p>
+            <p>Jane is our tech wizard, responsible for developing and maintaining our platform. With a background in software engineering, she ensures that our technology is cutting-edge and reliable.</p>
+            <a href="https://instagram.com/username1" target="_blank" class="btn">Follow on Instagram</a>
+        </div>
+
+        <div class="team-member">
+            <img src="images/team2.png" alt="Michael Brown">
+            <h3>Michael Brown</h3>
+            <p>Marketing Specialist</p>
+            <p>Michael handles our marketing and community outreach. With his expertise in digital marketing and a flair for engaging content, he helps us connect with our users and grow our community.</p>
+            <a href="https://instagram.com/username2" target="_blank" class="btn">Follow on Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CryptoCoins. All rights reserved.</p>
+    </footer>
+</body>
+</html>
