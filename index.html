@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CryptoCoins</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images/backk.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 80px);
+            text-align: center;
+            color: #fff;
+            padding: 0 20px;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero-content h2 {
+            font-size: 48px;
+            margin: 0;
+            color: #f39c12;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .hero-content .btn {
+            background: #f39c12;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 15px 30px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .hero-content .btn:hover {
+            background: #e67e22;
+            transform: scale(1.05);
+        }
+
+        .features {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features h2 {
+            font-size: 36px;
+            text-align: center;
+            color: #f39c12;
+        }
+
+        .features .feature {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+            padding: 20px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .features .feature i {
+            font-size: 40px;
+            color: #f39c12;
+            margin-right: 20px;
+        }
+
+        .features .feature h3 {
+            margin: 0;
+            font-size: 24px;
+            color: #f39c12;
+        }
+
+        .features .feature p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 15px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CryptoCoins</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="coins.html">Coins</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to CryptoCoins</h2>
+            <p>Your go-to platform for the latest in cryptocurrency. Discover, trade, and invest in top crypto coins.</p>
+            <a href="coins.html" class="btn">Explore Coins</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        
+        <div class="feature">
+            <i class="fas fa-lock"></i>
+            <div class="feature-info">
+                <h3>Secure Transactions</h3>
+                <p>We prioritize your security with encrypted transactions and a secure platform.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <i class="fas fa-chart-line"></i>
+            <div class="feature-info">
+                <h3>Real-time Data</h3>
+                <p>Stay updated with real-time data and analytics on your favorite cryptocurrencies.</p>
+            </div>
+        </div>
+
+        <div class="feature">
+            <i class="fas fa-users"></i>
+            <div class="feature-info">
+                <h3>Community Support</h3>
+                <p>Join a vibrant community of crypto enthusiasts and get support whenever you need it.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CryptoCoins. All rights reserved.</p>
+    </footer>
+</body>
+</html>
